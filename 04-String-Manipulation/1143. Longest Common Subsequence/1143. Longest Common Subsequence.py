@@ -1,0 +1,1 @@
+                if text1[i-1]==text2[j-1]: # DP uses length; Python uses 0-based index and i,j         for i in range(1,m+1):            for j in range(1,n+1):        matrix        dp=[[0]*(n+1) for i in range(m+1)]#to generate 0->m+1 colums and 0->n+1 rows   of         n=len(text2)        m=len(text1)    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
