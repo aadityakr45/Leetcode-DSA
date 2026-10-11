@@ -6,7 +6,7 @@
 6        
 7        for i in range(1, max_val + 1):
 8            results.append(Push)
-9            if i not in target_set:
+9            if i not in target:
 10                results.append(Pop)
 11                
 12        return results
