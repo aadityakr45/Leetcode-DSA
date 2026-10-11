@@ -1,0 +1,1 @@
+class Solution:    def findErrorNums(self, nums: list[int]) -> list[int]:        from collections import Counter         c=Counter(nums)        repeated_n=0        missing_n=0        for i in range(1,len(nums)+1):            if i not in c.keys():                missing_n=i            else:
